@@ -8,7 +8,7 @@ let containerEl2 = document.querySelector("#container");
 let secondElall = document.querySelectorAll(".second");
 
 // 4 - Select a list item with a class of third, but only the list item inside of the ol tag.
-
+let thirdEl = document.querySelector("ol .third");
 
 // 5 - Give the section with an id of container the text "Hello!".
 

@@ -5,15 +5,16 @@ let containerEl = document.getElementById("container");
 containerEl = document.querySelector("#container")
 
 // 3 - Select all of the list items with a class of "second".
-let listEl = document.getElementsByClassName("second")
+let secondElall = document.querySelectorAll(".second");
 
 // 4 - Select a list item with a class of third, but only the list item inside of the ol tag.
-let listThird = document.querySelector("ol .third")
+let thirdEl = document.querySelector("ol .third");
 
 // 5 - Give the section with an id of container the text "Hello!".
 let helloText = document.createElement("h2")
 helloText.innerText="Hello!"
 containerEl.appendChild(helloText)
+
 // 6 - Add the class main to the div with a class of footer.
 let footer = document.querySelector(".footer")
 footer.classList.add("main")
